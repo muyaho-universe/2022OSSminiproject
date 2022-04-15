@@ -28,7 +28,6 @@ int main(){
 	while(1)
 	{
 		if (count ==20) break;
-
 		menu = selectMenu();
 		if (menu == 0) break;
 		else if (menu == 1)
@@ -79,7 +78,6 @@ int main(){
 		{
 			printf("없는 메뉴입니다.\n");
 		}
-
 	}
     	printf("종료됨!\n");
 	
