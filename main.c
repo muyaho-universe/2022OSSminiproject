@@ -10,6 +10,7 @@ int main(){
 #endif
 	struct Product* p[20];
 	int count = 0, menu, type;
+	int isLoaded;
     	int selectedNum;
     	int go;
     	char filename[100]="product.txt";
