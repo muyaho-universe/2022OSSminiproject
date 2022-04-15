@@ -8,11 +8,6 @@ void searchProduct(struct Product *p[], int count, int type)
 {
 	char n_data[20], w_data[10];
     	int t_data, go = 0;
-
-
-
-
-
 	if(type == 1 )
 	{
     		printf("찾는 물건이름은? ");
@@ -112,29 +107,3 @@ void save_product(struct Product* p[], char* filename, int count){
     	fclose(fp);
     	printf("저장완료!\n");      
 }	// 파일에 제품 정보 저장
-
-
-   
-
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
