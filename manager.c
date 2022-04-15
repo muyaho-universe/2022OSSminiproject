@@ -7,7 +7,7 @@
 void searchProduct(struct Product *p[], int count, int type)
 {
 	char n_data[20], w_data[10];
-    	int t_data, go = 0;
+    	int t_data;
 	if(type == 1 )
 	{
     		printf("찾는 물건이름은? ");
@@ -61,7 +61,7 @@ void searchProduct(struct Product *p[], int count, int type)
 int load_product(struct Product* p[], char* filename){
 	FILE * fp;
     	int i = 0;
-    	if(fp = fopen(filename, "r"))
+    	if((fp = fopen(filename, "r")))
     	{
         	while (!feof(fp)){
             	int t_price, t_num;     //temporary variable for reading from file
