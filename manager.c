@@ -66,10 +66,6 @@ void searchProduct(struct Product *p[], int count, int type)
 int load_product(struct Product* p[], char* filename){
 	FILE * fp;
     	int i = 0;
-
-
-
-
     	if(fp = fopen(filename, "r"))
     	{
         	while (!feof(fp)){
