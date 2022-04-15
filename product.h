@@ -19,6 +19,6 @@ int selectMenu();
 struct Product* get_product(int count); // 제품을 추가하는 함수
 void readProduct(struct Product* p); // 하나의 제품 출력 함수
 int listProduct(struct Product *p[], int count); // 전체 등록된 제품 리스트 출력
-void deleteProduct(struct Product *p[], int i); 
+void deleteProduct(struct Product *p[], int i); // 원하는 번호의 상품을 삭제 가능 
 struct Product* updateProduct(int selectNum); // 업데이트 하기
 #endif
