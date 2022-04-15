@@ -12,4 +12,3 @@ $(DTARGET) : $(OBJECTS)
 clean:
 	rm *.o 
 	rm shop shop_debug
-
